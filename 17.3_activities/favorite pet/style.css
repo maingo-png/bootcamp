@@ -1,2 +1,42 @@
+h1 {
+    font-family:monospace;
+    font-size: 60px;
+}
 h2 {
     font-family: 'Roboto Mono', monospace; }
+nav {background-color: lightpink; 
+    height:50px; }
+
+.menu-item {
+    display:inline-block; 
+    width: 150px; 
+    vertical-align: middle;
+    text-align: center;
+    height: 30px;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+    color: palevioletred;
+}
+
+.sidebar {
+    width: 28%;
+    background-color: peachpuff;
+    float: left; 
+    height: 1000px;
+    padding: 2%; 
+}
+
+.pet-name img {
+    width: 150px;
+
+
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.main-content {
+    width: 60%;
+    float: left;
+}
